@@ -1,0 +1,3 @@
+mod_realip2 is an Apache 2 module for rewriting connection's Remote IP
+to value of a X-Real-IP header. The module is IPv6 compatible.
+It is free software, licensed under the Apache license.
