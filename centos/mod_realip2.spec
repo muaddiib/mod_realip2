@@ -31,7 +31,7 @@ Building option:
 mkdir -p %{buildroot}%{_sysconfdir}/httpd/conf.d/
 install -Dp .libs/mod_realip2.so %{buildroot}%{_libdir}/httpd/modules/mod_realip2.so
 
-cat << EOF > %{buildroot}%{_sysconfdir}/httpd/conf.d/mod_realip2.conf
+cat << EOF > %{buildroot}%{_sysconfdir}/httpd/conf.d/realip2.conf
 #
 # This module rewrites connection's Remote IP to value of X-Real-IP.
 #
